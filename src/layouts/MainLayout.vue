@@ -3,7 +3,7 @@
     <q-header 
       class="bg-white text-grey-10"
       bordered>
-      <q-toolbar class="constraint">
+      <q-toolbar  class="constraint">
         <q-btn 
           to="/camera"
           class="large-screen-only q-mr-sm"
@@ -52,7 +52,7 @@
           </q-tabs>
       </q-footer>
 
-    <q-page-container>
+    <q-page-container class="bg-purple-1">
       <router-view />
     </q-page-container>
   </q-layout>
