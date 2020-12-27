@@ -58,7 +58,7 @@
             dense >
             <template v-slot:append>
              <q-btn 
-              v-if="!locationLoading && locationSupported"
+              v-if="!locationLoading "
               @click="getLocation"
               round 
               dense 
