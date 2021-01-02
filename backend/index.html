@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyCV4SU75cm0kl4-RfjCf4YH9TQ59Eh8hfk",
+    authDomain: "snapshot-388e3.firebaseapp.com",
+    projectId: "snapshot-388e3",
+    storageBucket: "snapshot-388e3.appspot.com",
+    messagingSenderId: "634414704137",
+    appId: "1:634414704137:web:8dcf1044514d7662633ad8"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+  db.settings({timestampsInSnapshots:true})
+</script>
+<script src="app.js"></script>
+</body>
+</html>
+
